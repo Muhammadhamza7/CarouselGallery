@@ -1,0 +1,26 @@
+body{
+    background-color: black;
+}
+#container{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+.btn{
+ margin:10px;
+ border-radius:2px;
+ cursor: pointer;
+transition: transform 0.3s ease;
+border:none;
+padding:5px 5px;
+}
+.btn:hover{
+    transform: scale(1.2);
+}
+#next{
+ background-color: rgb(81, 81, 169);
+}
+#previous{
+    background-color: rgb(35, 168, 28);
+   }
